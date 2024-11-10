@@ -17,3 +17,5 @@ RUN wget https://github.com/huderlem/poryscript/releases/download/${PORYSCRIPT_V
     && unzip poryscript-linux.zip \
     && ln -s /poryscript-linux/poryscript /usr/bin/poryscript \
     && rm poryscript-linux.zip
+
+# Now Run: cd /pokedecomp/agbcc/ && ./install.sh /path/to/mounted/pokeemerald
